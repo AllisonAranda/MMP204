@@ -21,6 +21,26 @@
     width:100%;
 }
 
+.link-box {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:340px;
+    height:0px;
+    background-size: cover;
+    font-family:inherit;
+    font-size:1.5em;
+    font-weight:bold;
+    text-decoration:none;
+    color:white;
+    text-transform:uppercase;
+}
+
+.link-box span{
+    background-color:rgba(0, 0, 0, 0.5);
+    padding:8px;
+}
 
 @media (min-width:768px){
     
